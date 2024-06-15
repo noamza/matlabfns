@@ -1,0 +1,1 @@
+addpath("yourpath"+filesep+"matlabfns");
