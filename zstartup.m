@@ -1,1 +1,1 @@
-addpath("yourpath"+filesep+"matlabfns");
+addpath(string(userpath)+filesep+"matlabfns");
