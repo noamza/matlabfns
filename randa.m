@@ -1,4 +1,4 @@
 %random angle
-function t = rtau(varargin)
+function t = randa(varargin)
     t = rand(varargin{:})*tau;
 end
