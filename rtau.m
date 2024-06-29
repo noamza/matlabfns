@@ -1,7 +1,4 @@
-function t=rtau(sz)
-    t= rand*tau;
-    if exist("sz","var")
-        sz=num2cell(sz);
-        t=rand(sz{:})*tau;
-    end
+%random angle
+function t = rtau(varargin)
+    t = rand(varargin{:})*tau;
 end
